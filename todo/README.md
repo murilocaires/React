@@ -1,6 +1,6 @@
 # Todo List
 
-![Banner do projeto](./images/banner.png)
+![Banner do projeto](.src/assets/images/banner.png)
 
 Aplicação de gerenciamento de tarefas desenvolvida com React e TypeScript. É possível criar, editar, concluir e excluir tarefas, mantendo os dados salvos no navegador.
 
