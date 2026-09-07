@@ -1,0 +1,16 @@
+import Container from "../components/container";
+import { TaskList } from "../core-components/tasks-list";
+import { TaskSummary } from "../core-components/task-summary";
+
+
+
+export function PageHome(){
+    return (
+        <Container as="article" className="space-y-3">
+            <header className="flex  items-center justify-between ">
+                <TaskSummary />
+            </header>
+            <TaskList />
+        </Container>
+    )
+}
